@@ -18,7 +18,7 @@ The implementation is GPU-based. Single GPU (~GTX 1080 ti) is enough to run each
 1. `foolbox==3.3.1`
 2. `torch==1.6.0+cu101`
 3. `torchvision=0.7.0`
-4. CUDA + CuDNN
+4. `CUDA + CuDNN`
 
 ### Attack running example:
 
