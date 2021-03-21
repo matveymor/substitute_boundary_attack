@@ -9,6 +9,11 @@ Adversarial attack is a way to exploit the non-robustness of deep learning modes
 
 Our implementation for Substitute Boundary Attack is based on FoolBox framework implemenation https://foolbox.readthedocs.io/en/stable/index.html
 
+### Dependencies
+`foolbox==3.3.1`
+`torch==1.6.0+cu101`
+`torchvision=0.7.0`
+
 Example of attack running:
 
 ```
