@@ -36,5 +36,7 @@ adversarial = attack(model=fmodel,
 where `fmodel` -- foolbox PyTorch model to be attacked, `input_or_adv` -- image to be perturbuted, `starting_points` -- starting adversarial examples, images from another class.
  
 More examples of experiments running you can find in the `experiments` directory.
+
+### Result of adversarial attack
  
 <p align="center"><img src="examples/example.png" width="650"/></p>
