@@ -20,7 +20,7 @@ The implementation is GPU-based. Single GPU (~GTX 1080 ti) is enough to run each
 3. `torchvision=0.7.0`
 4. CUDA + CuDNN
 
-Example of attack running:
+### Attack running example:
 
 ```
 fmodel = foolbox.PyTorchModel(model, bounds=(0, 1), device=device)
