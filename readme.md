@@ -3,4 +3,4 @@
 
 Team members: Matvey Morozov, Anna Klueva, Elizaveta Kovtun, Dmitrii Korzh
 
-Our implementation for Biased Boundary Attack is based on FoolBox framework implemenation https://foolbox.readthedocs.io/en/stable/index.html
+Our implementation for Substitute Boundary Attack is based on FoolBox framework implemenation https://foolbox.readthedocs.io/en/stable/index.html
