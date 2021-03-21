@@ -9,10 +9,14 @@ Adversarial attack is a way to exploit the non-robustness of deep learning modes
 
 Our implementation for Substitute Boundary Attack is based on FoolBox framework implemenation https://foolbox.readthedocs.io/en/stable/index.html
 
-### Dependencies
-`foolbox==3.3.1`
-`torch==1.6.0+cu101`
-`torchvision=0.7.0`
+### Dependencies & Requirements
+
+The implementation is GPU-based. Single GPU (~GTX 1080 ti) is enough to run each particular experiment. Main prerequisites are:
+
+1. `foolbox==3.3.1`
+2. `torch==1.6.0+cu101`
+3. `torchvision=0.7.0`
+4. CUDA + CuDNN
 
 Example of attack running:
 
