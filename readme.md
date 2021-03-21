@@ -37,3 +37,4 @@ where `fmodel` -- foolbox PyTorch model to be attacked, `input_or_adv` -- image 
  
 More examples of experiments running you can find in the `experiments` directory.
  
+<p align="center"><img src="examples/example_1.pdf" width="650"/></p>
