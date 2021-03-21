@@ -12,7 +12,7 @@ Our implementation for Substitute Boundary Attack is based on FoolBox framework 
 Example of attack running:
 
 ```
-fmodel = fb.PyTorchModel(model, bounds=(0, 1), device=device)
+fmodel = foolbox.PyTorchModel(model, bounds=(0, 1), device=device)
 
 attack = BoundaryAttack(steps=25000, tensorboard='./logs')
 
@@ -21,6 +21,8 @@ adversarial = attack(model=fmodel,
                      starting_points=starting_points, 
                      criterion=fb.criteria.Misclassification(label), 
                      epsilons=1e-3)
-
-
 ```
+where `fmodel` -- foolbox PyTorch model to be attacked, `input_or_adv` -- image to be perturbuted, `starting_points` -- starting adversarial examples, images from another class.
+ 
+More examples of experiments running you can find in the `experiments` directory.
+ 
