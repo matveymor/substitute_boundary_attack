@@ -20,6 +20,13 @@ The implementation is GPU-based. Single GPU (~GTX 1080 ti) is enough to run each
 3. `torchvision=0.7.0`
 4. `CUDA + CuDNN`
 
+### Repo structure
+1. In `attack` the original Boundary Attack, Biased Boundary Attack and Surrogate model based (our) Boundary Attack are located.
+2. `models` contains models for our experiments and notebooks for training this models
+3. `experiments` contains our project experiments
+4. `others` contains `SimBA` and `GeoDA` attacks, and the first custom implementation of Boundary Attack
+
+
 ### Attack running example:
 
 ```
