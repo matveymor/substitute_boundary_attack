@@ -57,7 +57,7 @@ SCAN_ID
 |       └── camera_*.jpg
 │   ├── background
 |       └── camera_*.jpg
-│   └── masks(matting)
+│   └── masks_matting
 |       └── camera_*.png
 |
 ├── Metashape
