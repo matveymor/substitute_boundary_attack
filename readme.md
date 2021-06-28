@@ -48,8 +48,7 @@ More examples of experiments running you can find in the `experiments` directory
 SCAN_ID
 ├── Raw
 │   ├── person
-│   ├── background
-│   └── camera_data
+│   └── background
 │
 ├── Converted(DxO)
 │   ├── person
