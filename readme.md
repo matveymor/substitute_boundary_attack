@@ -56,12 +56,14 @@ SCAN_ID
 │   └── masks(matting)
 |
 ├── Metashape
-│   ├── project_low
-|       ├── aligned
-|       └── project_low.files
 │   ├── project_high
 |       ├── aligned
-|       └── project_high.files
+|       ├── mesh.obj
+|       ├── texture.mtl
+|       ├── cameras.xml
+|       └── project_low.files
+│   ├── project_low
+|       └── ...
 ```
 
 ### Result of adversarial attack
