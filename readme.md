@@ -53,12 +53,9 @@ SCAN_ID
 │
 ├── Converted(DxO)
 │   ├── person
-│   └── background
-│
-├── Matting
-│   ├── person(masked)
-│   └── masks
-│
+│   ├── background
+│   └── masks(matting)
+|
 ├── Metashape
 │   ├── person(masked)
 │   ├── meshes
