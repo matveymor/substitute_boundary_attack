@@ -57,10 +57,10 @@ SCAN_ID
 |
 ├── Metashape
 │   ├── project_low
-|       ├── person
+|       ├── aligned
 |       └── project_low.files
 │   ├── project_high
-|       ├── person
+|       ├── aligned
 |       └── project_high.files
 ```
 
