@@ -61,7 +61,7 @@ SCAN_ID
 |       ├── mesh.obj
 |       ├── texture.mtl
 |       ├── cameras.xml
-|       └── project_low.files
+|       └── project_high.files
 │   ├── project_low
 |       └── ...
 ```
