@@ -56,12 +56,12 @@ SCAN_ID
 │   └── masks(matting)
 |
 ├── Metashape
-│   ├── person(masked)
-│   ├── meshes
-│   │    ├── low.obj
-│   │    └── high.obj
-│   ├── cameras.xml
-│   └── project.psx
+│   ├── project_low
+|   |   ├── person
+|   |   └── project_low.files
+│   ├── project_high
+|   |   ├── person
+|   |   └── project_high.files
 ```
 
 ### Result of adversarial attack
