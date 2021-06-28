@@ -45,28 +45,27 @@ where `fmodel` -- foolbox PyTorch model to be attacked, `input_or_adv` -- image 
 More examples of experiments running you can find in the `experiments` directory.
 
 ```
-ID
+SCAN_ID
 ├── Raw
 │   ├── person
-│   └── background
+│   ├── background
+│   └── camera_data
 │
-├── Converted (DxO)
+├── Converted(DxO)
 │   ├── person
 │   └── background
 │
 ├── Matting
-│   ├── person (masked)
+│   ├── person(masked)
 │   └── masks
 │
 ├── Metashape
-│   ├── person (masked)
+│   ├── person(masked)
 │   ├── Meshes
 │   │    ├── low.obj
 │   │    └── high.obj
 │   ├── cameras.xml
 │   └── project.psx
-│
-└── README.md
 ```
 
 ### Result of adversarial attack
