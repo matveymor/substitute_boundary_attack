@@ -57,11 +57,11 @@ SCAN_ID
 |
 ├── Metashape
 │   ├── project_low
-|   |   ├── person
-|   |   └── project_low.files
+|       ├── person
+|       └── project_low.files
 │   ├── project_high
-|   |   ├── person
-|   |   └── project_high.files
+|       ├── person
+|       └── project_high.files
 ```
 
 ### Result of adversarial attack
