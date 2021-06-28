@@ -48,16 +48,22 @@ More examples of experiments running you can find in the `experiments` directory
 SCAN_ID
 ├── Raw_photo
 │   ├── person
+|       ├── camera_*.tiff
 │   └── background
+|       ├── camera_*.tiff
 │
 ├── Converted(DxO)
 │   ├── person
+|       └── camera_*.jpg
 │   ├── background
+|       └── camera_*.jpg
 │   └── masks(matting)
+|       └── camera_*.png
 |
 ├── Metashape
 │   ├── project_high
 |       ├── person_aligned
+|           └── camera_*.jpg
 |       ├── mesh.obj
 |       ├── texture.mtl
 |       ├── texture.png
