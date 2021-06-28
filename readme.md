@@ -51,7 +51,6 @@ ID
 │   └── background
 │
 ├── Converted (DxO)
-│
 │   ├── person
 │   └── background
 │
