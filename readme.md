@@ -61,10 +61,10 @@ ID
 ├── Metashape
 │   ├── person (masked)
 │   ├── Meshes
-│       ├── low.obj
-│       └── high.obj
+│   │    ├── low.obj
+│   │    └── high.obj
 │   ├── cameras.xml
-│   ├── project.psx
+│   └── project.psx
 │
 └── README.md
 ```
