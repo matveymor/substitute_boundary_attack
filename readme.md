@@ -60,6 +60,7 @@ SCAN_ID
 |       ├── aligned
 |       ├── mesh.obj
 |       ├── texture.mtl
+|       ├── texture.png
 |       ├── cameras.xml
 |       └── project_high.files
 │   ├── project_low
