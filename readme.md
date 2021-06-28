@@ -45,15 +45,28 @@ where `fmodel` -- foolbox PyTorch model to be attacked, `input_or_adv` -- image 
 More examples of experiments running you can find in the `experiments` directory.
 
 ```
-├── dir1
-│   ├── file11.ext
-│   └── file12.ext
-├── dir2
-│   ├── file21.ext
-│   ├── file22.ext
-│   └── file23.ext
-├── dir3
-├── file_in_root.ext
+ID
+├── Raw
+│   ├── person
+│   └── background
+│
+├── Converted (DxO)
+│
+│   ├── person
+│   └── background
+│
+├── Matting
+│   ├── person (masked)
+│   └── masks
+│
+├── Metashape
+│   ├── person (masked)
+│   ├── Meshes
+│       ├── low.obj
+│       └── high.obj
+│   ├── cameras.xml
+│   ├── project.psx
+│
 └── README.md
 ```
 
