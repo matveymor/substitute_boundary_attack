@@ -61,7 +61,7 @@ SCAN_ID
 │
 ├── Metashape
 │   ├── person(masked)
-│   ├── Meshes
+│   ├── meshes
 │   │    ├── low.obj
 │   │    └── high.obj
 │   ├── cameras.xml
