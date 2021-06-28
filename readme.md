@@ -46,18 +46,18 @@ More examples of experiments running you can find in the `experiments` directory
 
 ```
 SCAN_ID
-├── Raw
-│   ├── person
+├── Raw_photo
+│   ├── object
 │   └── background
 │
 ├── Converted(DxO)
-│   ├── person
+│   ├── object
 │   ├── background
 │   └── masks(matting)
 |
 ├── Metashape
 │   ├── project_high
-|       ├── aligned
+|       ├── object_aligned
 |       ├── mesh.obj
 |       ├── texture.mtl
 |       ├── texture.png
