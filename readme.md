@@ -47,28 +47,31 @@ More examples of experiments running you can find in the `experiments` directory
 ```
 SCAN_ID
 ├── Raw_photo
-│   ├── person
-|       └── camera_*.cr2
-│   └── background
+│   ├──link_background
+│   ├──link_color_chkr
+│   └── person
 |       └── camera_*.cr2
 │
-├── Converted(DxO)
-│   ├── person
+├── Enhanced_photo
+│   ├── stage_name_1
 |       └── camera_*.jpg
-│   ├── background
+│   ├── stage_name_2
 |       └── camera_*.jpg
+│   ...
 │   └── masks_matting
 |       └── camera_*.png
 |
 ├── Metashape
 │   ├── project_high
-|       ├── person_aligned
+|       ├── person_undistored
 |           └── camera_*.jpg
 |       ├── mesh.obj
 |       ├── texture.mtl
 |       ├── texture.png
 |       ├── cameras.xml
-|       └── project_high.files
+|       ├── project_high.files
+|       ├── description.txt
+|
 │   ├── project_low
 |       └── ...
 ```
