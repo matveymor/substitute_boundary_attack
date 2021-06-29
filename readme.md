@@ -77,7 +77,7 @@ SCAN_ID
 |   └── albedo.png
 |
 ├── Enhanced_mesh
-|   ├── mesh_retopology.obj
+|   └── mesh_retopology.obj
 |
 ├── Cleaned_model
 │   ├── description.txt
