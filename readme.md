@@ -47,8 +47,8 @@ More examples of experiments running you can find in the `experiments` directory
 ```
 SCAN_ID
 ├── Raw_photo
-│   ├──link_background
-│   ├──link_color_chkr
+│   ├── link_background
+│   ├── link_color_chkr
 │   └── person
 |       └── camera_*.cr2
 │
