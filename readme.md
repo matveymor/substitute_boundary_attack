@@ -62,19 +62,22 @@ SCAN_ID
 |       └── camera_*.png
 |
 ├── Metashape
-│   ├── project_high
-|       ├── description.txt
-|       ├── person_undistored
-|           └── camera_*.jpg
-|       ├── mesh.obj
-|       ├── texture.mtl
-|       ├── texture.png
-|       ├── cameras.xml
-|       ├── project_high.psx
-|       └── project_high.files
+|   ├── description.txt
+|   ├── person_undistored
+|       └── camera_*.jpg
+|   ├── mesh.obj
+|   ├── texture.mtl
+|   ├── texture.png
+|   ├── cameras.xml
+|   ├── project_high.psx
+|   └── project_high.files
 |
-│   ├── project_low
-|       └── ...
+├── Photometric_stereo
+|   ├── normal_maps.png
+|   └── albedo.png
+|
+├── Enhanced_mesh
+|   ├── mesh_retopology.obj
 |
 ├── Cleaned_model
 │   ├── description.txt
@@ -82,6 +85,33 @@ SCAN_ID
 │   ├── texture.mtl
 │   ├── texture.png
 |   └── ...
+```
+
+```
+BKGD_ID
+├── Raw_photo
+|   └── camera_*.cr2
+|
+├── link_color_chkr
+│
+├── Enhanced_photo
+│   ├── stage_name_1
+|       └── camera_*.jpg
+│   ├── stage_name_2
+|       └── camera_*.jpg
+│   ...
+
+
+CCHKR_ID
+├── Raw_photo
+|   └── camera_*.cr2
+│
+├── Enhanced_photo
+│   ├── stage_name_1
+|       └── camera_*.jpg
+│   ├── stage_name_2
+|       └── camera_*.jpg
+│   ...
 ```
 
 ### Result of adversarial attack
