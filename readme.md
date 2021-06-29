@@ -70,7 +70,7 @@ SCAN_ID
 |       ├── texture.png
 |       ├── cameras.xml
 |       ├── project_high.files
-|       ├── description.txt
+|       └── description.txt
 |
 │   ├── project_low
 |       └── ...
