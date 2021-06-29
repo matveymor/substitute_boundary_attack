@@ -77,6 +77,7 @@ SCAN_ID
 |       └── ...
 |
 ├── Cleaned_model
+│   ├── description.txt
 │   ├── mesh.obj
 │   ├── texture.mtl
 │   ├── texture.png
