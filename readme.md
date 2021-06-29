@@ -47,10 +47,10 @@ More examples of experiments running you can find in the `experiments` directory
 ```
 SCAN_ID
 ├── Raw_photo
-│   ├── link_background
-│   ├── link_color_chkr
-│   └── person
-|       └── camera_*.cr2
+|   └── camera_*.cr2
+|
+├── link_background
+├── link_color_chkr
 │
 ├── Enhanced_photo
 │   ├── stage_name_1
