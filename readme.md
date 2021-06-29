@@ -63,17 +63,24 @@ SCAN_ID
 |
 ├── Metashape
 │   ├── project_high
+|       ├── description.txt
 |       ├── person_undistored
 |           └── camera_*.jpg
 |       ├── mesh.obj
 |       ├── texture.mtl
 |       ├── texture.png
 |       ├── cameras.xml
-|       ├── project_high.files
-|       └── description.txt
+|       ├── project_high.psx
+|       └── project_high.files
 |
 │   ├── project_low
 |       └── ...
+|
+├── Cleaned_model
+│   ├── mesh.obj
+│   ├── texture.mtl
+│   ├── texture.png
+|   └── ...
 ```
 
 ### Result of adversarial attack
